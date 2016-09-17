@@ -3,16 +3,16 @@
 Vim syntax highlighting for [Vue
 components](http://vuejs.org/guide/application.html#Single_File_Components).
 
-This was initially forked from
-[darthmall/vim-vue](https://github.com/darthmall/vim-vue). I already have an
-implementation for this but found his code much cleaner. That's why I created a
-new version instead of a PR.
+This is a fork from [posva/vim-vue](https://github.com/posva/vim-vue/). 
+I found out that the implentation is slowing vim down but implentations
+from [tao12345666333/vim-vie](https://github.com/tao12345666333/vim-vue)
+is faster. So I tried to merge both repositories.
 
 ## Installation
 
 ### Install with [Vundle](https://github.com/VundleVim/Vundle.vim)
 
-`Plugin 'posva/vim-vue'`
+`Plugin 'evanslify/vim-vue'`
 
 ## Contributing
 

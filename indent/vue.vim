@@ -23,10 +23,6 @@ if exists("*GetVueIndent")
 endif
 
 function! GetVueIndent()
-  if searchpair('<template lang="pug"', '', '</template>', 'bWr')
-    exe "let indent = ".s:pugindent
-  elseif searchpair('<style lang="stylus"', '', '</style>', 'bWr')
-    exe "let indent = ".s:stylusindent
   if searchpair('<style', '', '</style>', 'bWr')
     exe "let indent = ".s:cssindent
   elseif searchpair('<script', '', '</script>', 'bWr')
